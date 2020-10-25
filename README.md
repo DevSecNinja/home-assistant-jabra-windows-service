@@ -1,7 +1,9 @@
 ## Create a secrets.ini in the root containing:
+````
 [DEFAULT]
 HomeAssistantURL = https://<HomeAssistantUrl>/api/states/sensor.jabraheadset
 HomeAssistantAuth = Bearer <Long Lived Access Token>
+````
 
 Tip: you can rename the `secrets.ini.example` file to `secrets.ini`.
 

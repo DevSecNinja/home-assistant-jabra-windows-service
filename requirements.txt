@@ -4,6 +4,5 @@ flake8
 black
 requests
 pywin32
-pywinusb
 
 ###### Requirements with Version Specifiers ######`

@@ -23,6 +23,7 @@ Make sure that the packages show up under `C:\Program Files (x86)\Python*\Lib\si
 
 ```` powershell
 python .\main.py --startup auto --wait 2 install
+python .\main.py start
 ````
 
 ## Troubleshooting
@@ -35,7 +36,7 @@ Get-Service -Name "JabraHomeAssistantSync" | Start-Service
 - You can run the following code to debug the service:
 
 ```` powershell
-python .\main.py --startup auto --wait 2 debug
+python .\main.py debug
 ````
 
 - In case you receive the error `Error starting service: The service did not respond to the start or control request in a timely fashion` during the start of the service,

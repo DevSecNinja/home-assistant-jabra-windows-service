@@ -22,7 +22,7 @@ Make sure that the packages show up under `C:\Program Files (x86)\Python*\Lib\si
 - Browse to the location and run the code below in PowerShell with administrator privileges:
 
 ```` powershell
-python .\main.py --startup auto --wait 2 install
+python .\main.py --startup delayed --wait 2 install
 python .\main.py start
 ````
 
